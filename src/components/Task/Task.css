@@ -1,0 +1,45 @@
+.del-btn, .save-btn, .edit-btn, .btn-danger:disabled {
+  background-color: transparent;
+  border: none;
+}
+
+
+hr{
+    border: 1px solid;
+}
+
+.del-btn:hover {
+  background-color: #dc3545;
+  border: #dc3545;
+}
+
+.save-btn:hover {
+  background-color: #28a745;
+  border: #28a745;
+}
+
+.task-completed{
+    text-decoration: line-through;
+}
+
+.btn-right{
+    float: right;
+}
+
+.task #add-new{
+    max-width: 40%;
+    margin-right: 10px;
+}
+
+@media (min-width : 200px) and (max-width : 750px){
+    .task #add-new{
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width : 200px) and (max-width : 750px){
+    .task{
+        text-align: center!important
+    }
+ }

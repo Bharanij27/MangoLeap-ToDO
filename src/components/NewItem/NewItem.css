@@ -1,0 +1,44 @@
+#add-new{
+    display: inline-block;
+    width: 85%;
+}
+
+input[type=text]{
+    padding: 1%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.hr-bold{
+    border-top: 3px solid #ffffff;
+}
+
+.new-item-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.new-item-btn:hover{
+    background-color: #0069d9;
+    border: #0062cc;
+}
+
+.m-right{
+    float: right;
+}
+
+.checkbox-margin{
+    margin-right: 20px;
+}
+
+@media (min-width : 200px) and (max-width : 750px){
+    .m-right{
+        float: none;
+        text-align: center;
+    }
+    .checkbox-margin{
+        margin-right: 5px;
+    }
+}
